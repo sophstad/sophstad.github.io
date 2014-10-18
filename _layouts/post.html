@@ -1,0 +1,15 @@
+{% include header.html %}
+
+<main>
+  <article>
+    <header>
+      <h2><a>{{post.title}}</a></h2>
+      <h3>{{post.date}}</h3>
+    </header>
+    <div class="post">
+      {{content}}
+    </div>
+  </article>
+</main>
+
+{% include footer.html %}
