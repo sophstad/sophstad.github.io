@@ -1,8 +1,14 @@
 ---
 layout: page
 title: Blog
-
 ---
-<ul>
 
+{% include header.html %}
+
+<ul>
+  <li>
+    <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </li>
 </ul>
