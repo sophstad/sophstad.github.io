@@ -1,14 +1,17 @@
 {% include header.html %}
 
-<main>
-  <article>
-    <header>
-      <h1>{{page.title}}</h1>
-    </header>
-    <div class="content">
-      {{content}}
+  <body>
+    <div class="container">
+      <main>
+        <article>
+          <header>
+            <h1>{{ page.title }}</h1>
+          </header>
+          <div class="content">
+            {{ content }}
+          </div>
+        </article>
+      </main>
     </div>
-  </article>
-</main>
-
-{% include footer.html %}
+  </body>
+</html>
