@@ -36,7 +36,14 @@ h2 {
 p, .paragraph {
   margin: 1rem 0;
 }
+::selection {
+  background: #ff0; /* Safari */
+}
+::-moz-selection {
+  background: #ff0; /* Firefox */
+}
 .container {
+  height: 100%;
   padding-bottom: 4rem;
   position: absolute;
   width: 100%;
@@ -60,7 +67,7 @@ p, .paragraph {
 .about {
   z-index: 1111;
 }
-#blog {
+#blog-button {
   border: 0.4rem solid rgb(63, 161, 255);
   color: rgb(63, 161, 255);
   font-size: 1.75rem;
@@ -71,7 +78,7 @@ p, .paragraph {
   text-transform: uppercase;
   width: auto;
 }
-#blog:hover {
+#blog-button:hover {
   background-color: rgb(63, 161, 255);
   color: #fff;
 }
@@ -80,6 +87,8 @@ p, .paragraph {
   margin-top: 10rem;
   z-index: 11111;
 }
+
+/* Ribbon Styling */
 .ribbon {
   position: relative;
   top: -4rem;
@@ -97,13 +106,11 @@ p, .paragraph {
   text-transform: uppercase;
 }
 .ribbon:before {
+  border: 1.5em solid #fff;
+  border-left-color:transparent;
   margin-top: 0.5em;
   content: "";
   float: left;
-  border: 1.5em solid #fff;
-}
-.ribbon:before {
-  border-left-color:transparent;
 }
 .ribbon a { 
   border-bottom: none;
@@ -112,11 +119,6 @@ p, .paragraph {
   height: 3.5em;
   overflow: hidden;
 }
-.media {
-  top: -4rem;
-  left: 2rem;
-
-}
 strong.ribbon-content{
   color: rgb(63, 161, 255);
   display: inline;
@@ -124,17 +126,19 @@ strong.ribbon-content{
   position: absolute;
   left: -6rem;
 }
+
+.media {
+  top: -4rem;
+  left: 2rem;
+
+}
+
+/* Music Hover */
 .last-fm {
   color: #fff;
   font-size: 75%;
   text-transform: uppercase;
   width: auto;
-}
-::selection {
-  background: #ff0; /* Safari */
-}
-::-moz-selection {
-  background: #ff0; /* Firefox */
 }
 #audio {
   fill: rgb(63, 161, 255);
@@ -167,6 +171,8 @@ strong.ribbon-content{
   border-left: 1rem solid transparent;
   border-right: 1rem solid transparent; 
 }
+
+/* Cycling NYC List */
 .NYC:hover span#city {
   display:none;
 }
@@ -187,4 +193,33 @@ ul#cyclelist li {
   margin: 0;
   opacity: 0;
   padding: 0;
-  position:absolute}
+  position:absolute
+}
+
+/* Blog */
+main {
+  background-color: #fff;
+  height: 100%;
+  left: 20%;
+  position: relative;
+  width: 60%;
+}
+article {
+  padding: 4rem;
+}
+ul.blog-index {
+  list-style-type: none;
+  padding: 0;
+}
+li.blog-index {
+  padding: 1rem 0;
+}
+.title, .subtitle {
+  display: block;
+}
+.title {
+  padding-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 80%;
+}

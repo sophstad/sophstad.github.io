@@ -1,16 +1,17 @@
 {% include header.html %}
 
 <body>
-  <div class="container">
-    <main>
-      <article>
-        <header>
-          <h3>{{ page.title }}</h3>
-        </header>
-        <div class="content">
-          {{ content }}
-        </div>
-      </article>
-    </main>
-  </div>
+  <main>
+    <article>
+      <header>
+        <h3>{{ page.title }}</h3>
+        <h4>{{ page.date | date:'%B %d, %Y' }}</h4>
+      </header>
+      <div>
+        {{ content }}
+      </div>
+    </article>
+  </main>
 </body>
+
+{% include footer.html %}
