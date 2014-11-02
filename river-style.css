@@ -157,7 +157,7 @@ strong.ribbon-content{
   display: none;
   padding: 1rem;
   position: absolute;
-  top: 3rem;
+  bottom: 6rem;
   max-width: 60%;
   z-index: 1000;
 }
