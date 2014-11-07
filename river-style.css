@@ -13,7 +13,7 @@ body {
   background-color: rgb(63, 161, 255);
   color: #444444;
   font-size: 16px;
-  letter-spacing: .1rem;
+  letter-spacing: 1px;
 }
 a {
   border-bottom: 2px solid #ccc;
@@ -157,7 +157,7 @@ strong.ribbon-content{
   display: none;
   padding: 1rem;
   position: absolute;
-  bottom: 9.5rem;
+  bottom: 8.5rem;
   max-width: 60%;
   z-index: 1000;
 }
@@ -165,7 +165,7 @@ strong.ribbon-content{
   content: "";
   position: absolute;
   top: 100%;
-  left: 1rem;
+  left: 11.4rem;
   border-top: 1rem solid blue;
   border-top-color: inherit; 
   border-left: 1rem solid transparent;
@@ -177,12 +177,13 @@ strong.ribbon-content{
   display:none;
 }
 .NYC:hover span#shitty {
-  display:inline;
+  display: inline;
 }
 #shitty {
   display: none;
 }
 ul#cyclelist {
+  display: inline;
   margin: 0;
   overflow:hidden;
   padding: 0;
@@ -199,12 +200,13 @@ ul#cyclelist li {
 /* Blog */
 main {
   background-color: #fff;
-  height: 100%;
+  display: block;
   left: 20%;
   position: relative;
   width: 60%;
 }
 article {
+  display: block;
   padding: 4rem;
 }
 ul.blog-index {
