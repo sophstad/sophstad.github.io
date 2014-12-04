@@ -112,13 +112,6 @@ p, .paragraph {
   content: "";
   float: left;
 }
-.ribbon a { 
-  border-bottom: none;
-  color: rgb(63, 161, 255);
-  float: left;
-  height: 3.5em;
-  overflow: hidden;
-}
 strong.ribbon-content{
   color: rgb(63, 161, 255);
   display: inline;
@@ -140,14 +133,14 @@ strong.ribbon-content{
   text-transform: uppercase;
   width: auto;
 }
-#audio {
+.icon {
   fill: rgb(63, 161, 255);
   max-height: 1rem;
   max-width: 1rem;
   pointer-events: all;
   width: auto;
 }
-#audio:hover ~ .bubble {
+.icon:hover ~ .bubble {
   display: block;
 }
 .bubble {
