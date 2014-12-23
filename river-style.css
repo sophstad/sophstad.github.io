@@ -218,3 +218,6 @@ li.blog-index {
 .subtitle {
   font-size: 80%;
 }
+.post {
+  letter-spacing: 0;
+}
