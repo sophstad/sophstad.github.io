@@ -32,9 +32,11 @@ h1 {
 h2 {
   color: rgb(63, 161, 255);
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 p, .paragraph {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 ::selection {
   background: #ff0; /* Safari */
@@ -150,7 +152,7 @@ strong.ribbon-content{
   display: none;
   padding: 1rem;
   position: absolute;
-  bottom: 8.25rem;
+  bottom: 7.25rem;
   max-width: 60%;
   z-index: 1000;
 }
