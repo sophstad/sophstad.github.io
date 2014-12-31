@@ -55,16 +55,15 @@ p, .paragraph {
   border: 0.2rem solid rgb(63, 161, 255);
   float: left;
   position: relative;
-  padding: 1.5rem;
-  width: 20rem;
+  padding: 5%;
 }
 .blurb:hover {
   z-index: 1111111;
 }
 .content{
-  margin: 0 20%;
+  margin: 0 5%;
   position: relative;
-  width: 60%;
+  width: 90%;
 }
 .about {
   z-index: 1111;
@@ -85,8 +84,6 @@ p, .paragraph {
   color: #fff;
 }
 .work {
-  margin-left: -2rem;
-  margin-top: 10rem;
   z-index: 11111;
 }
 
@@ -120,12 +117,6 @@ strong.ribbon-content{
   z-index: 99999999;
   position: absolute;
   left: -6rem;
-}
-
-.media {
-  top: -4rem;
-  left: 2rem;
-
 }
 
 /* Music Hover */
@@ -226,4 +217,26 @@ article {
 }
 .post {
   letter-spacing: 0;
+}
+
+/* Large - only targets 2nd breakpoint. 
+   ========================================================================== */
+@media screen and (min-width: 48em) {
+  .blurb {
+    padding: 1.5rem;
+    width: 20rem;
+  }
+  .work {
+    margin-left: -2rem;
+    margin-top: 10rem;
+  }
+  .media {
+    top: -4rem;
+    left: 2rem;
+  }
+  .content{
+    margin: 0 20%;
+    position: relative;
+    width: 60%;
+  }
 }
