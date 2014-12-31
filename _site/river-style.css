@@ -1,4 +1,10 @@
 /* CANVAS */
+
+/* Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 html, body {
   height: 100%;
   margin: 0;
