@@ -83,10 +83,7 @@ p, .paragraph {
   text-transform: uppercase;
   width: auto;
 }
-#blog-button:hover {
-  background-color: rgb(63, 161, 255);
-  color: #fff;
-}
+
 .work {
   z-index: 11111;
 }
@@ -206,6 +203,9 @@ article {
 .blog-index {
   margin-bottom: 2rem;
 }
+.blog-link:hover .title {
+  color: rgb(63, 161, 255);
+}
 .title, .subtitle {
   display: block;
 }
@@ -243,7 +243,8 @@ article {
     position: relative;
     width: 60%;
   }
-  .blog-link:hover .title {
-    color: rgb(63, 161, 255);
+  #blog-button:hover {
+    background-color: rgb(63, 161, 255);
+    color: #fff;
   }
 }
