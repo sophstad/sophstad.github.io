@@ -225,7 +225,7 @@ article {
 
 /* Large - only targets 2nd breakpoint. 
    ========================================================================== */
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 48em) {
   .blurb {
     padding: 1.5rem;
     width: 20rem;
