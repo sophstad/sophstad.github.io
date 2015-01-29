@@ -2,7 +2,7 @@
 layout: post
 title: Writing in LaTeX
 ---
-As part of my Calculus IV class, I’ve started working in LaTeX for publishing equations. My only exposure to it so far has been exams from my Calc III class, so I’m really starting with a blank slate. Though it’s definitely not code, LaTeX is a highly advanced markup system, and one that requires a lot of care to get right. A couple observations:
+As part of my Calculus IV class, I’ve started working in LaTeX for publishing equations. My only exposure to it so far has been exams from my Calc III class, so I’m really starting with a blank slate. Though it’s definitely not code, LaTeX is a powerfully customizable markup system, and one that requires a lot of care to get right. A couple observations:
 
 ### Shifting Aesthetic
 I’ve always been a fan of the slightly decorative, clean aesthetic that’s commonplace on the web nowadays. You know—sites that aren’t too gaudy, but also not barren. But LaTeX, similar to my professor’s website, adopts a much more spartan feel. I’ve found myself appreciating the simplicity of alignment, balance, and whitespace that LaTeX is so generous with—those components that often go overlooked in other mediums.
