@@ -1,3 +1,7 @@
+---
+layout: post
+title: Writing in LaTeX
+---
 # Writing in LaTeX
 
 As part of my Calculus IV class, I’ve started working in LaTeX for my equations. My only exposure to it so far has been exams from my Calc III class, so I’m really starting with a blank slate. Though it’s definitely not code, LaTeX is a highly advanced markup system, and one that requires a lot of care to get right. A couple observations:
@@ -17,4 +21,4 @@ There’s something to be said for the fact that LaTeX always looks the same. It
 ### ShareLaTeX
 [ShareLaTeX](http://ShareLatex.com) is the best way to do it. Period.
 
-So, a few thoughts! LaTeX is fun, efficient, and something I’m going to be seeing a lot of.
+A few quick thoughts! LaTeX is fun, efficient, and something I’m going to be seeing a lot of.
