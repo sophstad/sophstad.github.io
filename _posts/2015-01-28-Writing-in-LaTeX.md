@@ -2,8 +2,6 @@
 layout: post
 title: Writing in LaTeX
 ---
-# Writing in LaTeX
-
 As part of my Calculus IV class, I’ve started working in LaTeX for my equations. My only exposure to it so far has been exams from my Calc III class, so I’m really starting with a blank slate. Though it’s definitely not code, LaTeX is a highly advanced markup system, and one that requires a lot of care to get right. A couple observations:
 
 ### Shifting Aesthetic
