@@ -220,6 +220,7 @@ article {
   letter-spacing: 0;
 }
 .back-to-blog{
+  display: inline-block;
   padding-top: 1rem;
 }
 

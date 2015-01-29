@@ -219,6 +219,10 @@ article {
 .post {
   letter-spacing: 0;
 }
+.back-to-blog{
+  display: inline-block;
+  padding-top: 1rem;
+}
 
 /* Large - only targets 2nd breakpoint. 
    ========================================================================== */
