@@ -5,7 +5,7 @@ title: Writing in LaTeX
 As part of my Calculus IV class, I’ve started working in LaTeX for publishing equations. My only exposure to it so far has been exams from my Calc III class, so I’m really starting with a blank slate. Though it’s definitely not code, LaTeX is a powerfully customizable markup system, and one that requires a lot of care to get right. A couple observations:
 
 ### Shifting Aesthetic
-I’ve always been a fan of the slightly decorative, clean aesthetic that’s commonplace on the web nowadays. You know—sites that aren’t too gaudy, but also not barren. But LaTeX, similar to my professor’s website, adopts a much more spartan feel. I’ve found myself appreciating the simplicity of alignment, balance, and whitespace that LaTeX is so generous with—those components that often go overlooked in other mediums.
+I’ve always been a fan of the slightly decorative, clean aesthetic that’s commonplace on the web nowadays. You know—sites that aren’t too gaudy, but also not barren. But LaTeX, similar to [my professor’s website](http://www.math.columbia.edu/~woodbury/teaching/calciv.html), adopts a much more spartan feel. I’ve found myself appreciating the simplicity of alignment, balance, and whitespace that LaTeX is so generous with—those components that often go overlooked in other mediums.
 
 ### Sleuthing
 I really dove right into LaTeX. Instead of reading a formal guide, I’ve just started with [tex.stackexchange.com](http://www.tex.stackexchange.com) and a wealth of examples online. As a result, I’m finding myself learning about the language by trial and error. The ‘$’ symbol, for example, makes a world of difference in the way your text compiles.
