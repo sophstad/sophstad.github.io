@@ -40,7 +40,7 @@ title: Sophie Stadler
         </div>
         <div class="blurb media">
           <a href="/blog/index.html">
-            <div id="blog-button">
+            <div id="blog-button" class="shuffle">
               blog
             </div>
           </a>
@@ -56,5 +56,10 @@ title: Sophie Stadler
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      $(".shuffle").scramble({
+        type: 'shuffle'
+      })
+    </script>
   </body>
 </html>
