@@ -91,7 +91,7 @@ p, .paragraph {
 /* Ribbon Styling */
 .ribbon {
   position: relative;
-  top: -4rem;
+  top: -5rem;
   left: -29rem;
 }
 .ribbon strong {
@@ -247,10 +247,10 @@ article {
   }
   .work {
     margin-left: -2rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
   .media {
-    top: -4rem;
+    top: -5rem;
     left: 2rem;
   }
   .content{
