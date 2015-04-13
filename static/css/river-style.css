@@ -1,0 +1,265 @@
+/* CANVAS */
+
+/* Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+/* Defaults */
+body {
+  background-color: rgb(63, 161, 255);
+  color: #444444;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+a {
+  border-bottom: 2px solid #ccc;
+  color: #444444;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom-color: rgb(63, 161, 255);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: rgb(63, 161, 255);
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+p, .paragraph {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+::selection {
+  background: #ff0; /* Safari */
+}
+::-moz-selection {
+  background: #ff0; /* Firefox */
+}
+.container {
+  height: 100%;
+  padding-bottom: 4rem;
+  position: absolute;
+  width: 100%;
+}
+.blurb {
+  background-color: rgb(255, 255, 255);
+  border: 0.2rem solid rgb(63, 161, 255);
+  float: left;
+  position: relative;
+  padding: 5%;
+  width: 90%;
+}
+.content{
+  margin: 0 5%;
+  position: relative;
+  width: 90%;
+}
+.about {
+  z-index: 1111;
+}
+#blog-button {
+  border: 0.4rem solid rgb(63, 161, 255);
+  color: rgb(63, 161, 255);
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.work {
+  z-index: 11111;
+}
+
+/* Ribbon Styling */
+.ribbon {
+  position: relative;
+  top: -5rem;
+  left: -29rem;
+}
+.ribbon strong {
+  background: #fff;
+  color: rgb(63, 161, 255);
+  display: inline-block;
+  font-size: 80%;
+  line-height: 3rem;
+  padding: 0 1rem 0 0;
+  margin-top: 0.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.ribbon:before {
+  border: 1.5em solid #fff;
+  border-left-color:transparent;
+  margin-top: 0.5em;
+  content: "";
+  float: left;
+}
+strong.ribbon-content{
+  color: rgb(63, 161, 255);
+  display: inline;
+  z-index: 99999999;
+  position: absolute;
+  left: -6rem;
+}
+
+/* Music Hover */
+.last-fm {
+  color: #fff;
+  font-size: 75%;
+  text-transform: uppercase;
+  width: auto;
+}
+.icon {
+  fill: rgb(63, 161, 255);
+  max-height: 1rem;
+  max-width: 1rem;
+  pointer-events: all;
+  width: auto;
+}
+.icon:hover ~ .bubble {
+  display: block;
+}
+.bubble {
+  background-color: rgb(63, 161, 255);
+  border-color: rgb(63, 161, 255);
+  border-radius: .5rem;
+  display: none;
+  padding: 1rem;
+  position: absolute;
+  bottom: 7.25rem;
+  max-width: 60%;
+  z-index: 1000;
+}
+.bubble:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 6rem;
+  border-top: 1rem solid blue;
+  border-top-color: inherit; 
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent; 
+}
+
+/* Cycling NYC List */
+.NYC:hover span#city {
+  display:none;
+}
+.NYC:hover span#shitty {
+  display: inline;
+}
+#shitty {
+  display: none;
+}
+ul#cyclelist {
+  display: inline;
+  margin: 0;
+  overflow:hidden;
+  padding: 0;
+}
+ul#cyclelist li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position:absolute;
+}
+
+/* Blog */
+main {
+  background-color: #fff;
+  display: block;
+  left: 20%;
+  position: relative;
+  width: 60%;
+}
+article {
+  display: block;
+  padding: 4rem;
+}
+.blog-ul {
+  list-style-type: none;
+  padding: 0;
+}
+.blog-index {
+  margin-bottom: 2rem;
+}
+.blog-link:hover .title {
+  color: rgb(63, 161, 255);
+}
+.title, .subtitle {
+  display: block;
+}
+.title {
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 80%;
+}
+.post {
+  letter-spacing: 0;
+  line-height: 1.5rem;
+}
+.post h3{
+  margin-bottom: 0;
+}
+.post p{
+  margin-top: 0.75rem;
+}
+.back-to-blog{
+  display: inline-block;
+  padding-top: 2rem;
+}
+.date{
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+/* Large - only targets 2nd breakpoint. 
+   ========================================================================== */
+@media screen and (min-width: 48em) {
+  .blurb {
+    padding: 1.5rem;
+    width: 20rem;
+  }
+  .blurb:hover {
+    z-index: 1111111;
+  }
+  .work {
+    margin-left: -2rem;
+    margin-top: 6rem;
+  }
+  .media {
+    top: -5rem;
+    left: 2rem;
+  }
+  .content{
+    margin: 0 20%;
+    position: relative;
+    width: 60%;
+  }
+  #blog-button:hover {
+    background-color: rgb(63, 161, 255);
+    color: #fff;
+  }
+}
