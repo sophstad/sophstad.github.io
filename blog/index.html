@@ -7,14 +7,10 @@ title: Blog
 {% for post in site.posts %}
     {% if post.hidden != true %}
   <li class="blog-index">
-    <a href="{{ post.url }}" class="blog-link">
-    <span class="title">{{ post.title }}</span>
-    <span class="subtitle">{{ post.date | date: '%B %d, %Y' }}</span>
-    {{ content }}
-    </a>
+    <a href="{{ post.url }}"><span class="title">{{ post.title }}</span></a>
   </li>
   {% endif %}
 {% endfor %}
 </ul>
 
-&#8592; <a href="http://sophstad.github.io">Back to the site</a>
+<p>&#8592; <a href="{{ site.url }}">Back to the site</a></p>

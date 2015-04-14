@@ -4,8 +4,11 @@
   <head>
     <title>Sophie Stadler</title>
 
-    <link rel="stylesheet" type="text/css" href="static/css/river-style.css">
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--     <link rel="stylesheet" type="text/css" href="static/css/river-style.css"> -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<!--     <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="static/js/last-fm-script.js" type="text/javascript" async></script>
@@ -15,66 +18,31 @@
 
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
+
+<script type="text/javascript">
+WebFontConfig = { fontdeck: { id: '55465' } };
+
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
+</script>
     
   </head>
   <body>
-    <div class="container">
-      <header>
+    <main>
+      <article>
         <h1>Sophie Stadler</h1>
-      </header>
-      <div class="content">
-        <div class="blurb about">
-          <h2>About</h2>
-          <div class="paragraph">
-            I&rsquo;m a freshman at Columbia University with a prospective major in computer science. I enjoy bagels, fonts, and listening to <svg class="icon" data-icon="music-note" viewBox="0 0 32 32"><path d="M0 24 A6 6 0 0 0 12 24 V8 H26 V18 A6 6 0 0 0 18 24 A6 6 0 0 0 30 24 V2 H8 V18 A6 6 0 0 0 0 24 "></path></svg>.
-            <div class="bubble">
-              <div class="last-fm">
-                <span id="lfmMostRecentTrackDate"></span>: <b><span id="lfmMostRecentTrackTitle" href="" target="new"></span></b> by <span id="lfmMostRecentTrackArtist"></span>
-              </div>
-            </div>
-          </div>
-          <div class="paragraph">
-            I hail from New Jersey, but now most of my time is spent in <span class="NYC"><span id="city">New York City.</span>
-            <span id="shitty"><ul id="cyclelist">
-              <li>Butler library.</li>
-              <li>my bed.</li>
-              <li>Joe Coffee.</li>
-              <li>John Jay 7.</li>
-            </ul></span>&nbsp;</span>
-          </div>
-        </div>
-        <div class="blurb work">
-          <h2>Work</h2>
-          <p>
-            I&rsquo;m a part of <a href="http://3005hacks.com">3005hacks</a>, where some friends and I are making cool things for our classmates to use.
-          </p>
-          <p>
-            I&rsquo;m a writer at <a href="http://theprospect.net">The Prospect</a>, where I have articles published every few weeks.
-          </p>
-          <p>
-            Help yourself to <a href="https://www.dropbox.com/s/odg0v6rqyl3xfdl/Resume.pdf?dl=0">a resum&#233;</a>.
-          </p>
-        </div>
-        <div class="blurb media">
-          <a href="/blog/index.html">
-            <div id="blog-button" class="shuffle">blog</div>
-          </a>
-          <p>
-            I&rsquo;m on <a href="https://github.com/sophstad">GitHub</a>, <a href="http://www.linkedin.com/in/sophiestadler/">LinkedIn</a>, and <a href="http://www.hypertexts.tumblr.com">Tumblr</a>.
-          </p>
-          <p>
-            You can also <a href="mailto:s.stadler@columbia.edu">shoot me an email</a>.
-          </p>
-        </div>
-        <div class="ribbon">
-          <strong>Contact</strong>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript">
-      $(".shuffle").scramble({
-        type: 'shuffle'
-      })
-    </script>
+        <p>I&rsquo;m a freshman studying computer science at Columbia University.</p>
+        <p>In my free time, I&rsquo;m building cool things with <a href="http://3005hacks.com">3005hacks</a>.</p>
+        <p>I have a <a href="/blog">blog</a> and a <a href="https://www.dropbox.com/s/odg0v6rqyl3xfdl/Resume.pdf?dl=0">resum&eacute;</a>.</p>
+        <p><a href="mailto:srs2231@columbia.edu"><i class="fa fa-envelope-o"></i></a> <a href="http://hypertexts.tumblr.com"><i class="fa fa-tumblr"></i></a> <a href="http://www.linkedin.com/in/sophiestadler"><i class="fa fa-linkedin"></i></a> <a href="http://www.github.com/sophstad"><i class="fa fa-github"></i></a></p>
+      </article>
+    </main>
   </body>
 </html>
