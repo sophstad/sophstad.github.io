@@ -19,6 +19,7 @@ article {
   border: 0.25rem solid white;
   margin: 0 auto;
   padding: 0 2rem;
+  width: 80%;
 }
 a {
   color: white;
@@ -29,9 +30,7 @@ a:hover {
 
 /* Small screens */
 @media screen and (min-width: 40em) {
-  article {
-    width: 80%;
-  }
+
 }
 /* Medium screens */
 @media screen and (min-width: 52em) {
@@ -41,7 +40,5 @@ a:hover {
 }
 /* Large screens */
 @media screen and (min-width: 64em) {
-  article {
-      width: 50%;
-  }
+
 }
