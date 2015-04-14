@@ -1,0 +1,47 @@
+html,
+body {
+  background-color: black;
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  color: white;
+/*  font-family: 'Cousine', monospace;*/
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+body { font-family:"Relative Monospaced 10 Pitch", 'Cousine', Consolas, monospace; font-size-adjust:0.5; font-weight:normal; font-style:normal; }
+main {
+  padding: 4rem 0;
+}
+article {
+  border: 0.25rem solid white;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Small screens */
+@media screen and (min-width: 40em) {
+  article {
+    width: 80%;
+  }
+}
+/* Medium screens */
+@media screen and (min-width: 52em) {
+  article {
+      width: 50%;
+  }
+}
+/* Large screens */
+@media screen and (min-width: 64em) {
+  article {
+      width: 50%;
+  }
+}
