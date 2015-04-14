@@ -12,7 +12,7 @@ body {
   padding: 0;
   width: 100%;
 }
-body { font-family:"Relative Monospaced 10 Pitch", 'Cousine', Consolas, monospace; font-size-adjust:0.5; font-weight:normal; font-style:normal; }
+body { font-family:"Relative Monospaced 10 Pitch",'Anonymous Pro', Consolas, monospace; font-size-adjust:0.5; font-weight:normal; font-style:normal; }
 main {
   padding: 4rem 0;
   width: 100%;
