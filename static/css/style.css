@@ -29,6 +29,9 @@ a {
 a:hover {
   text-decoration: none;
 }
+.fa {
+  padding-right: 1rem !important;
+}
 
 /* Small screens */
 @media screen and (min-width: 40em) {

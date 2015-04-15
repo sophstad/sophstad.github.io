@@ -7,7 +7,7 @@ title: Blog
 {% for post in site.posts %}
     {% if post.hidden != true %}
   <li class="blog-index">
-    <a href="{{ site.url }}/{{ post.url }}"><span class="title">{{ post.title }}</span></a>
+    <a href="{{ site.url }}{{ post.url }}"><span class="title">{{ post.title }}</span></a>
   </li>
   {% endif %}
 {% endfor %}
