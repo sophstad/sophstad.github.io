@@ -5,9 +5,9 @@ title: Blog
 
 <ul class="blog-ul">
 {% for post in site.posts %}
-    {% if post.hidden != true %}
+  {% if post.hidden != true %}
   <li class="blog-index">
-    <a href="{{ site.url }}{{ post.url }}"><span class="title">{{ post.title }}</span></a>
+    <a href="{{ post.url }}"><span class="title">{{ post.title }}</span></a>
   </li>
   {% endif %}
 {% endfor %}
