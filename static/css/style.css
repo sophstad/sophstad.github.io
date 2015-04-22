@@ -7,6 +7,7 @@ body {
   color: white;
   font-family: 'Nitti Grotesk', 'Anonymous Pro', sans-serif;
   font-size: 20px;
+  -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   margin: 0;
   padding: 0;
