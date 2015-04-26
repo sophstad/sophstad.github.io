@@ -1,16 +1,18 @@
 {% include header.html %}
 
-<main>
-  <article>
-    <header>
-      <h2>{{ page.title }}</h2>
-      <h3 class="date">{{ page.date | date: '%B %d, %Y' }}</h3>
-    </header>
-    <div class="post">
-      {{ content }}
-      <p>&#8592; <a href="/blog">Back to the blog</a></p>
-    </div>
-  </article>
-</main>
+<body>
+  <div class="wrapper">
+  {% include sidebar.html %}
+    <article class="post">
+      <header>
+        <h2>{{ page.title }}</h2>
+        <h3>{{ page.date | date: '%B %d, %Y' }}</h3>
+      </header>
+      <div>
+        {{ content }}
+      </div>
+    </article>
+  </main>
+</body>
 
 {% include footer.html %}

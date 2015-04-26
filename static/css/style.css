@@ -1,9 +1,11 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 html,
 body {
   background-color: black;
-  box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
   color: white;
   font-family: 'Nitti Grotesk', 'Anonymous Pro', sans-serif;
   font-size: 20px;
@@ -39,6 +41,23 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+}
+.wrapper {
+  padding: 2rem;
+}
+.sidebar {
+  float: left;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 1rem;
+  width: 25%;
+}
+.post {
+  border: none;
+  padding-left: 30%;
+  padding-right: 10%;
+  width: 100%;
 }
 
 /* Small screens */
