@@ -1,4 +1,9 @@
 ---
 layout: post
-title: Blog
 ---
+
+{% assign first_post = site.posts.first %}
+
+<h2>{{ first_post.title }}</h2>
+
+{{ first_post.content }}
