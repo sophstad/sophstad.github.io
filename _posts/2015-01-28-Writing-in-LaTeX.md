@@ -19,4 +19,4 @@ There’s something to be said for the fact that LaTeX always looks the same. It
 ### ShareLaTeX
 [ShareLaTeX](http://www.shareLatex.com) is the best way to do it. Period.
 
-A few quick thoughts! LaTeX is fun, efficient, and something I’m going to be seeing a lot of.
+Just a few thoughts—LaTeX is fun, efficient, and something I’m going to be seeing a lot of.
