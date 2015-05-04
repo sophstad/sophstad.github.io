@@ -5,8 +5,8 @@
 }
 html,
 body {
-  background-color: black;
-  color: white;
+  background-color: #f9f9f9;
+  color: #222;
   font-family: 'Nitti Grotesk', 'Anonymous Pro', sans-serif;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
@@ -20,16 +20,18 @@ main {
   width: 100%;
 }
 article {
-  border: 0.25rem solid white;
+  border: 0.25rem solid black;
   margin: 0 auto;
   padding: 0 2rem;
   width: 70%;
 }
 a {
-  color: white;
+  color: inherit;
+/*  text-decoration: none;*/
 }
 a:hover {
-  text-decoration: none;
+  color: #0000f4;
+  text-decoration: underline;
 }
 .fa {
   padding-right: 1rem !important;
@@ -48,9 +50,26 @@ a:hover {
 }
 .post {
   border: none;
+  display: inline-block;
   padding-left: 30%;
   padding-right: 10%;
   width: 100%;
+}
+.post-date {
+  color: #a3a3a3;
+  display: inline-block;
+  font-size: 90%;
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+.post h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.post h3 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 /* Small screens */
