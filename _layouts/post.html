@@ -1,7 +1,7 @@
 {% include header.html %}
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper post-page">
   {% include sidebar.html %}
     <article class="post">
       <header>
@@ -11,8 +11,9 @@
       <div>
         {{ content }}
       </div>
+      <p class="sidebar-link">&#8592; <a href="/blog">View all posts</a></p>
     </article>
-  </main>
+  </div>
 </body>
 
 {% include footer.html %}
