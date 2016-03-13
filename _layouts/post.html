@@ -1,19 +1,13 @@
 {% include header.html %}
 
 <body>
-  <div class="wrapper post-page">
-  {% include sidebar.html %}
-    <article class="post">
-      <header>
-        <h1>{{ page.title }}</h1>
-        <h2 class="post-date">{{ page.date | date: '%B %d, %Y' }}</h2>
-      </header>
-      <div>
-        {{ content }}
-      </div>
-      <p class="sidebar-link">&#8592; <a href="/blog">View all posts</a></p>
-    </article>
-  </div>
+  <main>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    <p>&larrlp; <a href="/blog">Back to the blog</a></p>
+  </main>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+  <script type="text/javascript" src="{{ base.url }}/static/js/background.js"></script>
 </body>
 
 {% include footer.html %}
