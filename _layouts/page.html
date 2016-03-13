@@ -1,7 +1,12 @@
 {% include header.html %}
 
 <body>
-  {{ content }}
+  <main>
+    <h1><a href="/" class="link-no-underline">{{ site.title }}</a> {% if page.title != site.title %}– {{ page.title }}{% endif %}</h1>
+    {{ content }}
+  </main>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+  <script type="text/javascript" src="{{ base.url }}/static/js/background.js"></script>
 </body>
 
 {% include footer.html %}

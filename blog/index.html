@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Blog
+title: Notes
 ---
-{% assign first_post = site.posts.first %}
 
-<div class="wrapper blog-index">
-  {% include sidebar.html %}
-    <article class="post">
-      <h1>{{ first_post.title }}</h1>
-      <h2 class="post-date">{{ first_post.date | date: '%B %d, %Y' }}</h2>
+{% for post in site.posts %}
+  <article>
+    <h2><a href="{{ post.url }}" class="link-no-underline">{{ post.title }}</a></h1>
+    <h3 class="date">{{ post.date | date: '%B %d, %Y' }}</h2>
 
-      {{ first_post.content }}
-    </article>
-</div>
+    {{ post.content }}
+  </article>
+{% endfor %}
+<p>&larrlp; <a href="/">Back to the site</a></p>

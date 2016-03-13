@@ -5,111 +5,52 @@
 }
 html,
 body {
-  background-color: #f9f9f9;
-  color: #222;
-  font-family: 'Benton Sans', 'Work Sans', sans-serif;
-  font-size: 18px;
+  color: rgba(35, 30, 30, 0.9);
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
+  height: 100%;
   line-height: 1.5;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-main {
-  padding: 4rem 0;
-  width: 100%;
-}
+main,
 article {
-  border: 0.25rem solid black;
-  margin: 0 auto;
-  padding: 0 2rem;
+  height: auto;
+  min-height: 100%;
 }
 a {
   color: inherit;
-/*  text-decoration: none;*/
 }
 a:hover {
-  color: #0000f4;
-  text-decoration: underline;
+  color: rgba(35, 30, 30, 0.6);
 }
-.fa {
-  padding-right: 1rem !important;
+
+.link-no-underline {
+  text-decoration: none;
 }
-.wrapper {
-  padding: 2rem;
-}
-.sidebar {
-  float: left;
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding: 1rem;
-  position: fixed;
-}
-.post {
-  border: none;
-  width: 100%;
-}
-.post-date {
-  color: #a3a3a3;
-  display: inline-block;
-  font-size: 90%;
-  margin-bottom: 0.25rem;
-  margin-top: 0.5rem;
-  text-transform: uppercase;
-}
-.post h1 {
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;
-}
-.post h3 {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+.date {
+  opacity: 0.4;
 }
 
 /* Small screens */
 @media screen and (min-width: 300px) {
-  .homepage {
-    width: 90%;
-  }
-  .sidebar {
-    width: 100%;
-  }
-  .blog-index .post {
-    display: none;
-  }
-  .post-page .sidebar {
-    display: none;
-  }
-  .post-page .post {
-    padding: 0;
+  main {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 85%;
   }
 }
 /* Medium screens */
 @media screen and (min-width: 40rem) {
-  .homepage {
-    width: 50%;
-  }
-  .blog-index .post {
-    display: inline-block;
-  }
-  .sidebar,
-  .post-page .sidebar {
-    display: inline-block;
-    width: 25%;
-  }
-  .sidebar-link {
-    display: none;
-  }
-  .post,
-  .post-page .post {
-    padding-left: 30%;
-    padding-right: 10%;
-    width: 100%;
+  main {
+    margin: 0;
+    padding: 4rem 0 4rem 5rem;
+    width: 40%;
   }
 }
 /* Large screens */
 @media screen and (min-width: 64em) {
-
 }
