@@ -14,7 +14,7 @@ Here’s how I’m spending my time lately –
 Some things I also enjoy –
 
 1. [Typography](https://github.com/sophstad/typelinks)
-2. Collecting and analyzing [personal data](http://sophiestadler.com/france)
+2. Exploring [personal data](http://sophiestadler.com/france)
 3. Bagels
 4. Lists
 
