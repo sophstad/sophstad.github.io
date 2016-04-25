@@ -20,6 +20,7 @@ main,
 article {
   height: auto;
   min-height: 100%;
+  padding-bottom: 3rem;
 }
 a {
   color: inherit;
