@@ -3,7 +3,7 @@ title: Sophie Stadler
 layout: page
 ---
 
-I’m a sophomore studying computer science at Columbia University. This summer, I’ll be interning at an NYC startup as a [hackNY Fellow](http://hackny.org/a/fellows/).
+I’m a sophomore studying computer science at Columbia University. This summer, I’ll be interning at [Skillshare](https://www.skillshare.com) as a [hackNY Fellow](http://hackny.org/a/fellows/).
 
 Here’s how I’m spending my time lately –
 
