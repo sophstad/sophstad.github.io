@@ -8,8 +8,7 @@ I’m a sophomore studying computer science at Columbia University. This summer,
 Here’s how I’m spending my time lately –
 
 1. Building things with [3005hacks](http://3005hacks.com)
-2. Recording [Good Content](http://goodcontentpodcast.com)
-3. Working on [cs3157](http://www.cs.columbia.edu/~jae/3157/)
+2. Working on [cs3157](http://www.cs.columbia.edu/~jae/3157/)
 
 Some things I also enjoy –
 
