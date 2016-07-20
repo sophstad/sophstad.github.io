@@ -71,6 +71,7 @@ Music I like a lot:
 1. Kendrick Lamar – *To Pimp A Butterfly*
 1. Kid Cudi – *Man On The Moon: The End of Day*
 1. King Geedorah – *Take Me To Your Leader*
+1. Kodak Black – *Lil Big Pac*
 1. Lana Del Rey – *Born To Die*
 1. Little Simz – *A Curious Tale of Trials + Persons*
 1. Lorde – *Pure Heroine*
@@ -83,6 +84,7 @@ Music I like a lot:
 1. MGMT – *Oracular Spectacular*
 1. M.I.A. – *Kala*
 1. Mitski – *Bury Me at Makeout Creek*
+1. Mitski – *Puberty 2* 
 1. Nas – *Illmatic*
 1. Nicki Minaj – *The Pinkprint*
 1. Nosaj Thing – *Fated*
@@ -129,6 +131,7 @@ Music I like a lot:
 1. Vince Staples – *Summertime ‘06*
 1. The xx – *xx*
 1. Yellow Ostrich – *Strange Land*
+1. YG – *Still Brazy*
 1. Young Fathers – *Tape Two*
 1. Young Thug – *Barter 6*
 1. Young Thug – *Slime Season 3*
