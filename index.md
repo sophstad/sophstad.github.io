@@ -3,7 +3,7 @@ title: Sophie Stadler
 layout: page
 ---
 
-I’m a sophomore studying computer science at Columbia University.
+I’m a junior studying computer science at Columbia University.
 
 Here’s how I’m spending my time lately –
 
