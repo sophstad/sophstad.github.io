@@ -3,12 +3,7 @@ title: Sophie Stadler
 layout: page
 ---
 
-I’m a junior studying computer science at Columbia University.
-
-Here’s how I’m spending my time lately –
-
-1. Interning at [Skillshare](https://www.skillshare.com) as a [hackNY Fellow](http://hackny.org/a/fellows/)
-2. Building things with [3005hacks](http://3005hacks.com)
+I’m a junior studying computer science at Columbia University. I just spent my summer interning at [Skillshare](https://www.skillshare.com) as a [hackNY Fellow](http://hackny.org/a/fellows/).
 
 Some things I enjoy –
 
