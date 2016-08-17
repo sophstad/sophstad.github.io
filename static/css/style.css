@@ -49,7 +49,7 @@ a:hover {
   main {
     margin: 0;
     padding: 3rem 0 3rem 5rem;
-    width: 40%;
+    max-width: 32rem;
   }
 }
 /* Large screens */
