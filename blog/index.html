@@ -4,11 +4,10 @@ title: Notes
 ---
 
 {% for post in site.posts %}
-  <article>
-    <h2><a href="{{ post.url }}" class="link-no-underline">{{ post.title }}</a></h1>
-    <h3 class="date">{{ post.date | date: '%B %d, %Y' }}</h2>
+  <article class="pb3">
+    <h2><a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a></h2>
+    <h3 class="o4">{{ post.date | date: '%B %d, %Y' }}</h3>
 
     {{ post.content }}
   </article>
 {% endfor %}
-<p>&larrlp; <a href="/">Back to the site</a></p>
