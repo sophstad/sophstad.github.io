@@ -1,57 +1,20 @@
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
 html,
 body {
   color: rgba(35, 30, 30, 0.9);
-  font-family: 'Arimo', sans-serif;
-  font-size: 16px;
+  font-family: 'Arimo', -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-weight: 400;
   height: 100%;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
 }
-main,
-article {
-  height: auto;
-  min-height: 100%;
-  padding-bottom: 3rem;
-}
+
 a {
   color: inherit;
 }
+
 a:hover {
   color: rgba(35, 30, 30, 0.6);
 }
 
-.link-no-underline {
-  text-decoration: none;
-}
-.date {
+.o4 {
   opacity: 0.4;
-}
-
-/* Small screens */
-@media screen and (min-width: 300px) {
-  main {
-    margin: 0 auto;
-    padding: 1rem 0;
-    width: 85%;
-  }
-}
-/* Medium screens */
-@media screen and (min-width: 40rem) {
-  main {
-    margin: 0;
-    padding: 3rem 0 3rem 5rem;
-    max-width: 32rem;
-  }
-}
-/* Large screens */
-@media screen and (min-width: 64em) {
 }

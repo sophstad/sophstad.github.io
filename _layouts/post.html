@@ -1,9 +1,14 @@
 {% include header.html %}
 
-<body>
-  <main>
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+<body class="m0">
+  <main class="py3 px4 max-width-2">
+    <h1><a href="/" class="text-decoration-none">{{ site.title }}</a> {% if page.title != site.title %}– Notes{% endif %}</h1>
+    <article class="pb3">
+      <h2>{{ page.title }}</h2>
+      <h3 class="o4">{{ page.date | date: '%B %d, %Y' }}</h3>
+      {{ content }}
+    </article>
+
     <p>&larrlp; <a href="/blog">Back to the blog</a></p>
   </main>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>

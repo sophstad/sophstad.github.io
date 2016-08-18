@@ -1,9 +1,11 @@
 {% include header.html %}
 
-<body>
-  <main>
-    <h1><a href="/" class="link-no-underline">{{ site.title }}</a> {% if page.title != site.title %}– {{ page.title }}{% endif %}</h1>
+<body class="m0">
+  <main class="py3 px4 max-width-2">
+    <h1><a href="/" class="text-decoration-none">{{ site.title }}</a> {% if page.title != site.title %}– {{ page.title }}{% endif %}</h1>
     {{ content }}
+
+    {% if page.title != site.title %}<p>&larrlp; <a href="/">Back to the site</a></p>{% endif %}
   </main>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
   <script type="text/javascript" src="{{ base.url }}/static/js/background.js"></script>
