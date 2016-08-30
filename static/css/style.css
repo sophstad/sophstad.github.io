@@ -22,3 +22,10 @@ a:hover {
 .o4 {
   opacity: 0.4;
 }
+
+@media (min-width: 52em) {
+  .px3 {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
