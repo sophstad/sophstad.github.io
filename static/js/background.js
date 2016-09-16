@@ -7,12 +7,6 @@ var pow = Math.pow;
 var epoch = function() { return new Date().getTime()/2000; }
 // The last number in that line controls color cycle speed.
 
-function clip(min, n, max) {
-  if (min > n) { return min; }
-  if (max < n) { return max; }
-  return n;
-}
-
 function K(h) {
   h *= -1;
   var r = sin(pi * h);
