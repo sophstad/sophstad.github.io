@@ -3,7 +3,7 @@ title: Sophie Stadler
 layout: page
 ---
 
-I’m a junior studying computer science at Columbia University. I’m interested in full-stack engineering, and just spent my summer doing that at [Skillshare](https://www.skillshare.com) as a [hackNY Fellow](http://hackny.org/a/fellows/).
+I’m a junior studying computer science at Columbia University. I’m interested in full-stack engineering, and just spent my summer doing that at [Skillshare](https://www.skillshare.com) as a [hackNY Fellow](https://apply.hackny.org).
 
 Some things I enjoy –
 
