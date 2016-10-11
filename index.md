@@ -10,7 +10,7 @@ Some things I enjoy –
 1. [Typography](https://github.com/sophstad/typelinks)
 2. Exploring [personal data](http://sophiestadler.com/france)
 3. Bagels
-4. Lists
+4. [Documentation](/colophon)
 
 Another list –
 
