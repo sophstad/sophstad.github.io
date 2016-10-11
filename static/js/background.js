@@ -25,14 +25,5 @@ function recolor(plus) {
   var cycle = ((epoch() / 50) + plus) % 1;
   var color = K(cycle);
   color = 'rgb(' + color.join(',') + ')';
-  $('body').css({'background-color': color});
+  document.getElementsByTagName('body')[0].style.backgroundColor = color;
 }
-
-$(document).ready(function () {
-  recolor(0);
-  // The last number in this line is the update interval (in ms):
-  var a = function() {
-    setInterval(function () { recolor(0); }, 100);
-  };
-  a();
-});
