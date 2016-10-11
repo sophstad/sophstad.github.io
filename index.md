@@ -14,7 +14,7 @@ Some things I enjoy –
 
 Another list –
 
-1. [Email me](mailto:srs2231@columbia.edu)
+1. [Email me](mailto:s.stadler@columbia.edu)
 2. [Resumé](/resume.pdf)
 3. [GitHub](http://github.com/sophstad)
 4. [Tumblr](http://hypertexts.tumblr.com)
