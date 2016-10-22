@@ -26,6 +26,18 @@ a:hover {
   opacity: 0.4;
 }
 
+.o2 {
+  opacity: 0.2;
+}
+
+.lfm-data {
+  visibility: hidden;
+}
+
+#lfm-trigger:hover ~ .lfm-data {
+  visibility: visible;
+}
+
 @media (min-width: 52em) {
   .px3 {
     padding-left: 4em;
