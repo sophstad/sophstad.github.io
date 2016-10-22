@@ -5,8 +5,8 @@
     <h1>
       <a href="/" class="text-decoration-none">{{ site.title }}</a>
       {% if page.title != site.title %} – {{ page.title }}{% endif %}
-      <span id="lfm" class="xs-hide hide">
-        <img src="{{ base.url }}/static/img/note.svg" class="o2" id="lfm-trigger" href="" target="new">
+      <span id="lfm" class="xs-hide">
+        <img src="{{ base.url }}/static/img/note.svg" class="o2 hide" id="lfm-trigger" href="" target="new">
         <span class="block o4 h4 lfm-data">
           <p class="m0">Now Playing: <span id="lfm-artist"></span> – “<span id="lfm-track"></span>”</p>
         </span>
