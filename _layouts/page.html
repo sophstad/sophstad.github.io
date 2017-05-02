@@ -4,7 +4,7 @@ layout: default
 
 <h1>
   <a href="/" class="text-decoration-none">{{ site.title }}</a>
-  {% if page.path contains 'posts' %}<a href="/blog"> – Notes</a>
+  {% if page.path contains 'posts' %} – <a href="/blog" class="text-decoration-none">Notes</a>
   {% elsif page.title != site.title %} – {{ page.title }}{% endif %}
 </h1>
 
