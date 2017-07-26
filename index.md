@@ -3,7 +3,7 @@ title: Sophie Stadler
 layout: page
 ---
 
-I’m a junior studying computer science at Columbia University. I’m interested in full-stack engineering, and will be doing that over the summer at [MongoDB](https://www.mongodb.com) in New York.
+I’m a senior studying computer science at Columbia University. I’m interested in full-stack engineering, and am doing that over the summer at [MongoDB](https://www.mongodb.com) in New York.
 
 Some things I enjoy –
 
