@@ -3,8 +3,10 @@ layout: page
 title: Notes
 ---
 
+<p class="pb3">Very occasional postings.</p>
+
 {% for post in site.posts %}
-  <article class="pb3">
+  <article class="py3 border-top">
     <h2><a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a></h2>
     <h3 class="o4">{{ post.date | date: '%B %d, %Y' }}</h3>
 

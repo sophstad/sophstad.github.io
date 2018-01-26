@@ -1,3 +1,8 @@
+---
+layout: post
+title: Vim vs. Neovim
+---
+
 I just read [this](https://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/) interesting post on the benefits of Neovim over Vim. I thought the author made some good points, but I also lack the perspective of a contributor; I'm only a vim user. I decided to install Neovim (`brew install neovim`) and take a quick look.
 
 Right off the bat, I noticed two things:

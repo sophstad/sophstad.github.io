@@ -14,7 +14,8 @@ Some things I'm interested in —
 
 Another list —
 
-1. [Email me](mailto:s.stadler@columbia.edu)
-2. [Resumé](/resume.pdf)
-3. [GitHub](http://github.com/sophstad)
-4. [LinkedIn](http://www.linkedin.com/in/sophiestadler)
+1. [sophie.r.stadler@gmail.com](mailto:sophie.r.stadler@gmail.com)
+2. [Blog](/blog)
+3. [Resumé](/resume.pdf)
+4. [GitHub](http://github.com/sophstad)
+5. [LinkedIn](http://www.linkedin.com/in/sophiestadler)
