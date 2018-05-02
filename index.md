@@ -17,5 +17,5 @@ Another list —
 1. [sophie.r.stadler@gmail.com](mailto:sophie.r.stadler@gmail.com)
 2. [Blog](/blog)
 3. [Resumé](/resume.pdf)
-4. [GitHub](http://github.com/sophstad)
-5. [LinkedIn](http://www.linkedin.com/in/sophiestadler)
+4. [GitHub](https://github.com/sophstad)
+5. [LinkedIn](https://www.linkedin.com/in/sophiestadler)

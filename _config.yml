@@ -1,6 +1,6 @@
 title: Sophie Stadler
 markdown: kramdown
-url: http://sophiestadler.com
+url: https://sophiestadler.com
 collections:
   posts:
     output: true
