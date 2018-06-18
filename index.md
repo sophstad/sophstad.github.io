@@ -3,7 +3,11 @@ title: Sophie Stadler
 layout: page
 ---
 
-I’m a senior studying computer science at Columbia University. I work on tech things for [Nautilus Magazine](http://nautil.us). After graduation, I'll be working as an engineer at [MongoDB](https://www.mongodb.com) in New York.
+I’m a New York City-based software engineer. I enjoy working full-stack on platforms that are equitable and accessible.
+
+- Past: Columbia University
+- Present: [Sight Network](https://sight.network), [Nautilus Magazine](http://nautil.us)
+- Future: [MongoDB](https://mongodb.com)
 
 Some things I'm interested in —
 
