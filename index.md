@@ -22,4 +22,5 @@ Another list —
 2. [Blog](/blog)
 3. [Resumé](/resume.pdf)
 4. [GitHub](https://github.com/sophstad)
-5. [LinkedIn](https://www.linkedin.com/in/sophiestadler)
+5. [Twitter](https://twitter.com/sophstad)
+6. [LinkedIn](https://www.linkedin.com/in/sophiestadler)
