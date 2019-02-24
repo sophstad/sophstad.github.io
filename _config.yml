@@ -10,3 +10,7 @@ collections:
     output: true
     permalink: /softcomputer/:path/
     title: Soft Computer
+  recipes:
+    output: true
+    permalink: /recipes/:title/
+    title: Recipes
