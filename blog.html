@@ -7,9 +7,10 @@ title: Notes
 
 {% for post in site.posts %}
   <article class="py3 border-top">
-    <h2><a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a></h2>
+    <h2>
+      <a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a>
+    </h2>
     <h3 class="o4">{{ post.date | date: '%B %d, %Y' }}</h3>
-
     {{ post.content }}
   </article>
 {% endfor %}
