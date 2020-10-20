@@ -14,7 +14,5 @@ Some things I'm interested in —
 Another list —
 
 1. [sophie.r.stadler@gmail.com](mailto:sophie.r.stadler@gmail.com)
-2. [Resumé](/resume.pdf)
-3. [GitHub](https://github.com/sophstad)
-4. [Twitter](https://twitter.com/sophstad)
-5. [LinkedIn](https://www.linkedin.com/in/sophiestadler)
+2. [GitHub](https://github.com/sophstad)
+3. [Twitter](https://twitter.com/sophstad)
