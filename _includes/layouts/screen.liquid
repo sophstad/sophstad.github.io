@@ -1,0 +1,18 @@
+---
+layout: "layouts/default.liquid"
+---
+
+<div id="window" class="max-width-2">
+  <header id="windowheader" class="px1">
+    <div id="x" />
+  </header>
+
+  <article class="p3">
+    <h1 class="m0 mb2">
+      <a href="/" class="text-decoration-none">{{ metadata.title }}</a>
+      {% if page.filePathStem contains 'blog' %} – <a href="/blog" class="text-decoration-none">Notes</a>
+      {% elsif title != metadata.title %} – {{ title }}{% endif %}
+    </h1>
+    {{ content }}
+  </article>
+</div>

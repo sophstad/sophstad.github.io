@@ -1,29 +1,35 @@
-var pi = Math.PI;
-var sin = Math.sin;
-var floor = Math.floor;
-var abs = Math.abs;
-var pow = Math.pow;
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
 
-var epoch = function () {
-  return Date.now() / 2000;
-};
-// The last number in that line controls color cycle speed.
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
 
-function K(h) {
-  h *= -1;
-  var r = sin(pi * h);
-  var g = sin(pi * (h + 1 / 3));
-  var b = sin(pi * (h + 2 / 3));
-  return [r, g, b].map(function (c) {
-    c = c * c;
-    c = 0.85 + (c * 0.1);
-    return floor(c * 255);
-  });
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
 }
 
-function recolor(plus) {
-  var cycle = ((epoch() / 50) + plus) % 1;
-  var color = K(cycle);
-  color = 'rgb(' + color.join(',') + ')';
-  document.getElementsByTagName('body')[0].style.backgroundColor = color;
-}
+dragElement(document.getElementById("window"));

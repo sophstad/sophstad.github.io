@@ -4,8 +4,9 @@
 
 html,
 body {
+  background-color: #A79B86;
   color: rgba(35, 30, 30, 0.9);
-  font-family: -apple-system, BlinkMacSystemFont,
+  font-family: ui-monospace, -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -30,9 +31,42 @@ a:hover {
   opacity: 0.2;
 }
 
-@media (min-width: 52em) {
-  .px3 {
-    padding-left: 3em;
-    padding-right: 3em;
-  }
+:root {
+  --shadow-color: 0deg 0% 0%;
+  --shadow-elevation-medium:
+    -0.5px 0.7px 0.9px hsl(var(--shadow-color) / 0.19),
+    -1.5px 2.1px 2.6px -1.1px hsl(var(--shadow-color) / 0.16),
+    -4.5px 5.9px 7.4px -2.2px hsl(var(--shadow-color) / 0.14),
+    -11.7px 15.5px 19.4px -3.3px hsl(var(--shadow-color) / 0.11);
+}
+
+#window {
+  box-shadow: var(--shadow-elevation-medium);
+  position: absolute;
+  z-index: 9;
+  background-color: #dfdad3;
+  outline: 4px solid #0f0d0b;
+  border-radius: 6px;
+}
+
+article {
+  min-height: 600px;
+}
+
+header {
+  background-color: #0f0d0b;
+  height: 1.75rem;
+  padding: 0.5rem 0;
+}
+
+#windowheader {
+  cursor: move;
+  z-index: 10;
+}
+
+#x {
+  background-color: #f4f3f0;
+  clip-path: circle(50%);
+  height: 0.75rem;
+  width: 0.75rem;
 }
