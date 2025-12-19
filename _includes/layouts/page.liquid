@@ -1,0 +1,17 @@
+---
+layout: "layouts/default.liquid"
+---
+
+<h1>
+  <a href="/" class="text-decoration-none">{{ metadata.title }}</a>
+  {% if page.filePathStem contains 'blog' %} – <a href="/blog" class="text-decoration-none">Notes</a>
+  {% elsif title != metadata.title %} – {{ title }}{% endif %}
+</h1>
+
+{{ content }}
+
+{% if page.filePathStem contains 'blog' and page.fileSlug != 'blog' %}
+  <p>&larrlp; <a href="/blog">Back to the blog</a></p>
+{% elsif title != metadata.title %}
+  <p>&larrlp; <a href="/">Back to the site</a></p>
+{% endif %}

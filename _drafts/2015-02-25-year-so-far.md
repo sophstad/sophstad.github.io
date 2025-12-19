@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Year So Far
 ---
 Well, we’re two months into 2015. That’s 1/6th, or 16.67%. Here are some things that have made the year so far pretty good.

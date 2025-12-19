@@ -1,6 +1,5 @@
 ---
 title: Sophie Stadler
-layout: page
 ---
 
 I’m a New York City-based software engineer working on continuous integration tooling at [MongoDB](https://mongodb.com). I enjoy working full-stack on products that are equitable and accessible.
