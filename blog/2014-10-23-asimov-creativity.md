@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Asimov’s Creativity
 ---
+
 The MIT Technology Review recently published a [previously undiscovered Isaac Asimov essay](http://www.technologyreview.com/view/531911/isaac-asimov-mulls-how-do-people-get-new-ideas/). It’s a great, simple piece that you should read if you haven’t already.
 
 Asimov presents the idea that creativity is simply a series of links—that a creative’s job is to connect the threads between two ideas, thereby forming something greater than the sum of its parts. He explains the idea using an interesting example example:

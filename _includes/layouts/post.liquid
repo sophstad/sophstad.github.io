@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: "layouts/page.liquid"
 ---
 
 <article class="pb3">
-  <h2>{{ page.title }}</h2>
+  <h2>{{ title }}</h2>
   <h3 class="o4">{{ page.date | date: '%B %d, %Y' }}</h3>
   {{ content }}
 </article>
